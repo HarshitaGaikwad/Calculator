@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container
+{
+    height: 590px;
+    width: 330px;
+    background-color: black;
+    border-radius: 4rem;
+}
+
+#line
+{
+    
+    background-color: white;
+    height: 0.5%;
+    width: 30%;
+   margin-left: 34%;
+   margin-top: 4%;
+}
+
+#bdvd,#bmlt,#bminus,#bplus,#bequl
+{
+    background-color: #FF9F0A;
+}
+#bac,#bprtg,#bs
+{
+    background-color: grey;
+}
+
+.dspscrren
+{
+    /* background-color: pink; */
+    color: white;
+    height: 18%;
+    margin-top: 30%;
+    text-align: right;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+button
+{
+    height: 3.8rem;
+    width: 3.8rem;
+    border-radius: 2rem;
+    /* gap:  .6rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    margin-left: 10%;
+    border: none; /* Remove the default button border */
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.row
+{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
